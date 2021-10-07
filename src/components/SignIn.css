@@ -1,0 +1,35 @@
+.signin {
+  max-width: 300px;
+  margin-left: auto !important;
+  margin-right: auto;
+
+  padding: 60px;
+  margin: 200px;
+  width: 50%;
+  max-width: 520px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(22, 24, 47, 1) 0%,
+    rgba(38, 20, 72, 0.9) 59%,
+    rgba(17, 27, 75, 0.9) 100%
+  );
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.signin > form {
+  display: grid;
+  flex-direction: column;
+}
+
+.signin > form > input {
+  margin-bottom: 35px;
+  height: 25px
+}
+
+.signin_link {
+  text-decoration: underline;
+}
